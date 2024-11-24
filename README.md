@@ -1,7 +1,6 @@
 <p align="center">
-![210693949-4308af3f-306f-467f-9444-6cb044de2357](https://github.com/user-attachments/assets/25af8256-a717-4e3b-a80a-f52d7d7020a8)
   
-<img src="(https://i.imgur.com/ohWpv38.jpeg)" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/ohWpv38.jpeg" alt="Traffic Examination"/>
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
@@ -75,7 +74,7 @@ After entering the password, you’ll know the connection was successful when yo
 <br />
 
 <p>
-<img src="https://i.imgur.com/V6hfBqR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/hNfMyUo" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Let’s head back into Wireshark and narrow our focus to DHCP traffic. From the Windows 10 VM, attempt to issue it a new IP address by running the command ipconfig /renew. Watch as the DHCP traffic springs to life, showing the process in action.
@@ -83,7 +82,7 @@ Let’s head back into Wireshark and narrow our focus to DHCP traffic. From the 
 <br />
 
 <p>
-<img src="https://i.imgur.com/8JI3uoe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/vNaOUBd" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, shift the Wireshark filter to DNS traffic. Using the Windows 10 VM, run the command nslookup google.com to resolve Google’s IP address. Observe how the DNS queries and responses are captured in real-time—it’s like seeing the internet’s phonebook in action!
@@ -91,7 +90,7 @@ Next, shift the Wireshark filter to DNS traffic. Using the Windows 10 VM, run th
 <br />
 
 <p>
-<img src="https://i.imgur.com/nkyjinO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Y7gjHxE" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Finally, set your filter to capture RDP traffic, or use tcp.port==3389 for a more specific view. Notice the constant stream of data: the RDP protocol continuously transmits information to provide a live feed between the two systems. This steady flow is why you’ll see non-stop traffic—it’s the lifeblood of remote desktop connectivity.
