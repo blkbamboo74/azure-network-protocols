@@ -1,7 +1,7 @@
 <p align="center">
 ![210693949-4308af3f-306f-467f-9444-6cb044de2357](https://github.com/user-attachments/assets/25af8256-a717-4e3b-a80a-f52d7d7020a8)
   
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="(https://i.imgur.com/ohWpv38.jpeg)" alt="Traffic Examination"/>
 </p>
 
 <h1>Network Security Groups (NSGs) and Inspecting Traffic Between Azure Virtual Machines</h1>
