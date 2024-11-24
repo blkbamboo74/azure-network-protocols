@@ -8,7 +8,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computers)
 - Microsoft Remote Desktop
 - Microsoft PowerShell
 - Various Network Protocols (SSH, RDH, DNS, DHCP, ICMP)
@@ -53,16 +53,13 @@ Let’s get started! Use Remote Desktop to connect to the Windows 10 VM. Once co
 Now, for the next step: initiate a continuous ping from the Windows 10 VM to the Ubuntu VM.
 
 <p>
-<img src="https://i.imgur.com/CGXcQRl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
-<p>
-<img src="https://i.imgur.com/YvduWwJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xu7R9Lk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
- Navigate to the Network Security Group associated with the Ubuntu VM, and temporarily block inbound ICMP traffic. Return to Wireshark and observe how the traffic patterns change.
+  Navigate to the Network Security Group associated with the Ubuntu VM, and temporarily block inbound ICMP traffic. Return to Wireshark and observe how the traffic patterns change.
+  
+
  
 <p>
 <img src="https://i.imgur.com/Q0N5Ucz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -80,7 +77,7 @@ This hands-on approach ensures a deeper understanding of how network configurati
 <br />
 
 <p>
-<img src="https://i.imgur.com/uT1oJPD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZBDSe8z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now, let’s return to Wireshark and refine our focus by filtering for SSH traffic. From the Windows 10 VM, establish an SSH connection to the Ubuntu VM using its private IP address. Simply run the command ssh username@ip.address in your terminal, replacing username and ip.address with the appropriate details.
@@ -101,7 +98,7 @@ Let’s head back into Wireshark and narrow our focus to DHCP traffic. From the 
 <img src="https://i.imgur.com/vNaOUBd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, shift the Wireshark filter to DNS traffic. Using the Windows 10 VM, run the command nslookup google.com to resolve Google’s IP address. Observe how the DNS queries and responses are captured in real-time—it’s like seeing the internet’s phonebook in action!
+Next, shift the Wireshark filter to DNS traffic. Using the Windows 10 VM, run the command nslookup google.com to resolve Disney's IP address. Observe how the DNS queries and responses are captured in real-time—it’s like seeing the internet’s phonebook in action!
 </p>
 <br />
 
